@@ -17,9 +17,7 @@ I am a postdoctoral fellow in the laboratory of Dr Alex Huk in the Departments o
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
-.. toctree::
    Publications
    Thoughts
 

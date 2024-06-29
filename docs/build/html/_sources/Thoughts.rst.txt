@@ -1,8 +1,12 @@
 Thoughts
 ========
 
-Blog
+What I'm reading
 ----
 
-This is meant to be more of a blog style page
-To talk about recent papers, projects etc.
+To do
+
+Collaborators and community
+----
+
+To do
