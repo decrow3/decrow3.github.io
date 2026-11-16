@@ -23,6 +23,9 @@ I study how information is transformed between areas of the visual cortex. My re
 
 Supported by a National Eye Institute K99 award. `Award details <https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=K99EY037839&arg_ProgOfficeCode=124>`__.
 
+.. raw:: html
+   :file: _includes/figures/hero_v1v2.html
+
 .. _research-focus:
 
 From neural responses to circuit mechanisms
@@ -37,36 +40,54 @@ Selected contributions
 
 .. container:: contribution-list
 
-   .. container:: contribution contribution-featured
+   .. container:: contribution
 
-      **Cortical organization and visual maps**
+      .. raw:: html
+         :file: _includes/figures/glyph_maps.html
 
-      Our work on marmoset dorsomedial cortex showed how continuity constraints can produce a twisted visual-field map. Our recent mouse V2 preprint proposes a single complex area as an alternative account of higher visual cortex.
+      .. container:: contribution-body
 
-      Both studies address how we identify cortical areas and interpret the organization of visual maps within them.
+         **Cortical organization and visual maps**
 
-      `Science Advances article (2020) <https://doi.org/10.1126/sciadv.aaz8673>`__ · `Mouse V2 preprint (2026) <https://doi.org/10.1101/2024.10.10.617533>`__
+         Our work on marmoset dorsomedial cortex showed how continuity constraints can produce a twisted visual-field map. Our recent mouse V2 preprint proposes a single complex area as an alternative account of higher visual cortex.
+
+         Both studies address how we identify cortical areas and interpret the organization of visual maps within them.
+
+         `Science Advances article (2020) <https://doi.org/10.1126/sciadv.aaz8673>`__ · `Mouse V2 preprint (2026) <https://doi.org/10.1101/2024.10.10.617533>`__
 
    .. container:: contribution
 
-      **Active sensing and neural variability**
+      .. raw:: html
+         :file: _includes/figures/glyph_active.html
 
-      Our preprint links much of the neural variability during fixation to retinal input changing with small eye movements. Model-based analyses suggest that this motion can improve the spatial information carried by neural responses.
+      .. container:: contribution-body
 
-      `Active-sensing preprint (2026) <https://doi.org/10.64898/2026.10.12.758571>`__
+         **Active sensing and neural variability**
+
+         Our preprint links much of the neural variability during fixation to retinal input changing with small eye movements. Model-based analyses suggest that this motion can improve the spatial information carried by neural responses.
+
+         `Active-sensing preprint (2026) <https://doi.org/10.64898/2026.10.12.758571>`__
 
    .. container:: contribution
 
-      **Visual cortex during locomotion**
+      .. raw:: html
+         :file: _includes/figures/glyph_running.html
 
-      We found that running modulates marmoset foveal V1 much less than mouse V1. Our peripheral-V1 preprint reports stronger modulation away from the foveal representation, highlighting differences across the visual field as well as between species.
+      .. container:: contribution-body
 
-      `eLife article (2024) <https://doi.org/10.7554/eLife.87736.3>`__ · `Peripheral-V1 preprint (2024) <https://doi.org/10.1101/2024.10.10.617723>`__
+         **Visual cortex during locomotion**
+
+         We found that running modulates marmoset foveal V1 much less than mouse V1. Our peripheral-V1 preprint reports stronger modulation away from the foveal representation, highlighting differences across the visual field as well as between species.
+
+         `eLife article (2024) <https://doi.org/10.7554/eLife.87736.3>`__ · `Peripheral-V1 preprint (2024) <https://doi.org/10.1101/2024.10.10.617723>`__
 
 About
 ---------
 
 I am a Postdoctoral Scholar in Alex Huk's laboratory at UCLA, in the Departments of Psychiatry & Biobehavioral Sciences and Ophthalmology.
+
+.. raw:: html
+   :file: _includes/figures/about_path.html
 
 During my PhD at Monash University, Marcello Rosa, Elizabeth Zavitz, and Hsin-Hao Yu taught me electrophysiology, data analysis, and how to think about visual maps and cortical areas. I began by mapping receptive fields by hand with single-electrode recordings, then worked with multielectrode arrays. I also spent time in Tetsuo Yamamori's laboratory at RIKEN in Japan, working with Osamu Sadakane and learning one- and two-photon calcium imaging. That imaging work remains an important foundation for the research I am pursuing now.
 

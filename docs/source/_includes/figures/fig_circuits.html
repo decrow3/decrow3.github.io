@@ -1,0 +1,44 @@
+<figure class="figure-panel">
+  <div class="panel-grid">
+    <div class="panel">
+      <svg viewBox="0 0 200 130" role="img" aria-label="Circuit A: three inputs converge directly on one output neuron.">
+        <defs><marker id="fc-a-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1 L9 5 L0 9 Z" fill="var(--ink)"/></marker></defs>
+        <g stroke="var(--ink)" stroke-width="1.6" fill="none" marker-end="url(#fc-a-arrow)">
+          <line x1="40" y1="27" x2="144" y2="59"/><line x1="41" y1="65" x2="143" y2="65"/><line x1="40" y1="103" x2="144" y2="71"/>
+        </g>
+        <g fill="var(--surface)" stroke="var(--ink)" stroke-width="1.6"><circle cx="30" cy="25" r="9"/><circle cx="30" cy="65" r="9"/><circle cx="30" cy="105" r="9"/></g>
+        <circle cx="160" cy="65" r="13" fill="var(--blue)"/>
+      </svg>
+      <p><strong>Circuit A</strong> Feedforward pooling of inputs.</p>
+    </div>
+    <div class="panel">
+      <svg viewBox="0 0 200 130" role="img" aria-label="Circuit B: the same inputs reach the output neuron through direct connections, an inhibitory interneuron, and a recurrent loop.">
+        <defs>
+          <marker id="fc-b-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1 L9 5 L0 9 Z" fill="var(--ink)"/></marker>
+          <marker id="fc-b-inh" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7"><circle cx="5" cy="5" r="4" fill="var(--gold)"/></marker>
+        </defs>
+        <g stroke="var(--ink)" stroke-width="1.6" fill="none" marker-end="url(#fc-b-arrow)">
+          <line x1="40" y1="27" x2="144" y2="59"/><line x1="41" y1="65" x2="143" y2="65"/>
+          <line x1="39" y1="69" x2="90" y2="99"/><line x1="41" y1="105" x2="88" y2="105"/>
+          <path d="M168 53 C192 22 132 18 153 51"/>
+        </g>
+        <line x1="108" y1="100" x2="149" y2="76" stroke="var(--gold)" stroke-width="2" marker-end="url(#fc-b-inh)"/>
+        <g fill="var(--surface)" stroke="var(--ink)" stroke-width="1.6"><circle cx="30" cy="25" r="9"/><circle cx="30" cy="65" r="9"/><circle cx="30" cy="105" r="9"/></g>
+        <circle cx="100" cy="105" r="9" fill="var(--gold)"/>
+        <circle cx="160" cy="65" r="13" fill="var(--blue)"/>
+      </svg>
+      <p><strong>Circuit B</strong> Pooling shaped by inhibition and recurrence.</p>
+    </div>
+    <div class="panel panel--result">
+      <svg viewBox="0 0 200 130" role="img" aria-label="A single tuning curve: both circuits produce the same response to the stimulus.">
+        <g stroke="var(--muted)" stroke-width="1.4" fill="none"><path d="M30 14 V110 H188"/></g>
+        <path d="M36 107 C78 107 84 26 109 26 C134 26 140 107 182 107" fill="none" stroke="var(--blue)" stroke-width="4" stroke-linecap="round"/>
+        <path d="M36 107 C78 107 84 26 109 26 C134 26 140 107 182 107" fill="none" stroke="var(--gold)" stroke-width="2" stroke-dasharray="5 6" stroke-linecap="round"/>
+        <text x="109" y="126" text-anchor="middle" class="fig-axis">stimulus</text>
+        <text x="16" y="62" text-anchor="middle" transform="rotate(-90 16 62)" class="fig-axis">response</text>
+      </svg>
+      <p><strong>Same response</strong> Hard to tell A from B from responses alone.</p>
+    </div>
+  </div>
+  <figcaption><span class="fig-kind">Illustrative schematic</span> Different circuits can produce the same tuning, which is why neural responses are combined with circuit models and perturbations.</figcaption>
+</figure>

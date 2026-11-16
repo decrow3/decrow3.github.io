@@ -14,10 +14,16 @@ Connecting neural responses to biological mechanisms
 
 Different biological circuits can perform similar computations, while similar circuits can perform different computations. My research seeks to reconcile this disconnect between function and circuitry. Understanding what a neuron responds to is part of the problem; explaining how those responses arise requires connecting measurements of neural activity with models of the underlying circuit.
 
+.. raw:: html
+   :file: _includes/figures/fig_circuits.html
+
 Measuring and testing the circuit
 ------------------------------------
 
 I plan to combine simultaneous measurements of V1 and V2 activity, using high-density electrophysiology and calcium imaging, with computational models of the circuit between them. Measuring both areas together will allow me to relate the activity of V2 neurons to the signals available from V1.
+
+.. raw:: html
+   :file: _includes/figures/fig_approach.html
 
 Alongside these measurements, I plan to use optogenetic and chemogenetic interventions to alter neural activity and test the models. These approaches connect the description of neural responses to experiments on the circuits that produce them.
 
