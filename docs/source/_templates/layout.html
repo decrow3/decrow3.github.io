@@ -1,0 +1,42 @@
+{% extends "!layout.html" %}
+
+{%- block body_tag %}<body class="page-{{ pagename|lower|replace('/', '-') }}">{% endblock %}
+
+{%- block header %}
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a class="site-nav__brand" href="{{ pathto('index') }}">Declan Rowley</a>
+    <div class="site-nav__links">
+      <a href="{{ pathto('Research') }}"{% if pagename == 'Research' %} aria-current="page"{% endif %}>Research</a>
+      <a href="{{ pathto('Publications') }}"{% if pagename == 'Publications' %} aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ pathto('index') }}#about">About</a>
+      <a href="{{ pathto('index') }}#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+<span id="main-content" tabindex="-1"></span>
+{% endblock %}
+
+{%- block relbar1 %}{% endblock %}
+{%- block relbar2 %}{% endblock %}
+{%- block sidebar1 %}{% endblock %}
+{%- block sidebar2 %}{% endblock %}
+
+{%- block footer %}
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <div>
+      <p class="site-footer__name">Declan Rowley</p>
+      <p>Postdoctoral Scholar · UCLA</p>
+    </div>
+    <nav class="site-footer__links" aria-label="Profiles">
+      <a href="mailto:declanrowley@g.ucla.edu">Email</a>
+      <a href="https://scholar.google.com/citations?user=sH1o-U0AAAAJ&amp;hl=en">Google Scholar</a>
+      <a href="https://orcid.org/0000-0002-3529-4411">ORCID</a>
+      <a href="https://github.com/decrow3">GitHub</a>
+    </nav>
+    <p class="site-footer__note">Figures on this site are illustrative schematics, not data, unless labeled otherwise.</p>
+  </div>
+</footer>
+{% endblock %}

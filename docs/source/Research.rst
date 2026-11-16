@@ -1,5 +1,3 @@
-.. include:: _includes/site_nav.rst
-
 Research
 ========
 
@@ -52,4 +50,3 @@ Related work
 
 `Full publication list <Publications.html>`__ · `Contact <index.html#contact>`__
 
-.. include:: _includes/site_footer.rst

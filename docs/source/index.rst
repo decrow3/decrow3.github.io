@@ -1,5 +1,3 @@
-.. include:: _includes/site_nav.rst
-
 Declan Rowley
 =================
 
@@ -43,7 +41,7 @@ Selected contributions
    .. container:: contribution
 
       .. raw:: html
-         :file: _includes/figures/glyph_maps.html
+         :file: _includes/figures/tile_maps.html
 
       .. container:: contribution-body
 
@@ -58,7 +56,7 @@ Selected contributions
    .. container:: contribution
 
       .. raw:: html
-         :file: _includes/figures/glyph_active.html
+         :file: _includes/figures/tile_active.html
 
       .. container:: contribution-body
 
@@ -71,7 +69,7 @@ Selected contributions
    .. container:: contribution
 
       .. raw:: html
-         :file: _includes/figures/glyph_running.html
+         :file: _includes/figures/tile_running.html
 
       .. container:: contribution-body
 
@@ -99,8 +97,6 @@ Contact
 -----------
 
 For research questions and collaborations: `declanrowley@g.ucla.edu <mailto:declanrowley@g.ucla.edu>`__.
-
-.. include:: _includes/site_footer.rst
 
 .. toctree::
    :hidden:

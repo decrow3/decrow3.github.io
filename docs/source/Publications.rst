@@ -1,5 +1,3 @@
-.. include:: _includes/site_nav.rst
-
 Publications
 ============
 
@@ -130,4 +128,3 @@ Selected conference talks and posters
 
       **Rowley D.P.**, Haghgooie S., Zavitz E., Price N.S.C., Rosa M.G.P., Yu H-H. Poster presentation at Systems & Computational Neuroscience Down Under, 2015.
 
-.. include:: _includes/site_footer.rst

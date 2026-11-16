@@ -1,39 +1,41 @@
+<figure class="figure-plain">
 <ol class="approach">
   <li class="approach-step">
     <svg viewBox="0 0 200 110" aria-hidden="true" focusable="false">
       <text x="8" y="38" class="fig-tag">V1</text><text x="8" y="84" class="fig-tag">V2</text>
-      <path stroke="var(--ink)" stroke-width="2" stroke-linecap="round" d="M44 18v8M56 18v8M62 18v8M94 18v8M100 18v8M105 18v8M144 18v8M150 18v8M174 18v8M49 30v8M59 30v8M97 30v8M103 30v8M124 30v8M147 30v8M154 30v8M180 30v8M46 42v8M64 42v8M92 42v8M101 42v8M108 42v8M142 42v8M152 42v8M176 42v8M184 42v8"/>
-      <path stroke="var(--blue)" stroke-width="2" stroke-linecap="round" d="M54 64v8M66 64v8M104 64v8M111 64v8M156 64v8M162 64v8M188 64v8M60 76v8M68 76v8M108 76v8M114 76v8M134 76v8M159 76v8M164 76v8M56 88v8M70 88v8M102 88v8M112 88v8M154 88v8M166 88v8M190 88v8"/>
+      <path class="fig-ticks" d="M44 18v8M56 18v8M62 18v8M94 18v8M100 18v8M105 18v8M144 18v8M150 18v8M174 18v8M49 30v8M59 30v8M97 30v8M103 30v8M124 30v8M147 30v8M154 30v8M180 30v8M46 42v8M64 42v8M92 42v8M101 42v8M108 42v8M142 42v8M152 42v8M176 42v8M184 42v8"/>
+      <path class="fig-ticks fig-ticks--b" d="M54 64v8M66 64v8M104 64v8M111 64v8M156 64v8M162 64v8M188 64v8M60 76v8M68 76v8M108 76v8M114 76v8M134 76v8M159 76v8M164 76v8M56 88v8M70 88v8M102 88v8M112 88v8M154 88v8M166 88v8M190 88v8"/>
     </svg>
     <h3>Measure</h3>
     <p>Simultaneous V1 and V2 activity, using high-density electrophysiology and calcium imaging.</p>
   </li>
   <li class="approach-step">
     <svg viewBox="0 0 200 110" aria-hidden="true" focusable="false">
-      <defs><marker id="fa-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1 L9 5 L0 9 Z" fill="var(--ink)"/></marker></defs>
-      <rect x="14" y="36" width="46" height="38" rx="8" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.6"/>
+      <defs><marker id="fa-arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M0 1.2 L9 5 L0 8.8 Z" class="fig-fill-ink"/></marker></defs>
+      <rect class="fig-cell" x="14" y="36" width="46" height="38" rx="8"/>
       <text x="37" y="60" text-anchor="middle" class="fig-tag">V1</text>
-      <circle cx="100" cy="55" r="20" fill="var(--soft-gold)" stroke="var(--gold)" stroke-width="1.8" stroke-dasharray="4 4"/>
-      <text x="100" y="60" text-anchor="middle" class="fig-tag fig-tag--f">f</text>
-      <rect x="140" y="36" width="46" height="38" rx="8" fill="var(--blue)"/>
+      <circle class="fig-model" cx="100" cy="55" r="20"/>
+      <text x="100" y="61" text-anchor="middle" class="fig-tag fig-tag--f">f</text>
+      <rect class="fig-cell--out" x="140" y="36" width="46" height="38" rx="8"/>
       <text x="163" y="60" text-anchor="middle" class="fig-tag fig-tag--on">V2</text>
-      <g stroke="var(--ink)" stroke-width="1.6" marker-end="url(#fa-arrow)"><line x1="62" y1="55" x2="77" y2="55"/><line x1="122" y1="55" x2="137" y2="55"/></g>
+      <g class="fig-wire" marker-end="url(#fa-arrow)"><path d="M62 55H77"/><path d="M122 55H137"/></g>
     </svg>
     <h3>Model</h3>
     <p>Computational models of the circuit that relate V2 responses to the signals available from V1.</p>
   </li>
   <li class="approach-step">
     <svg viewBox="0 0 200 110" aria-hidden="true" focusable="false">
-      <defs><marker id="fp-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1 L9 5 L0 9 Z" fill="var(--ink)"/></marker></defs>
-      <path d="M92 6 H108 L124 62 H76 Z" fill="var(--gold)" opacity="0.28"/>
-      <rect x="90" y="2" width="20" height="7" rx="2" fill="var(--gold)"/>
-      <g stroke="var(--ink)" stroke-width="1.6" marker-end="url(#fp-arrow)"><line x1="52" y1="78" x2="84" y2="78"/><line x1="116" y1="78" x2="146" y2="78" stroke-dasharray="4 4"/></g>
-      <circle cx="40" cy="78" r="11" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.6"/>
-      <circle cx="100" cy="78" r="13" fill="var(--soft-gold)" stroke="var(--gold)" stroke-width="2.4"/>
-      <circle cx="160" cy="78" r="11" fill="var(--blue)" opacity="0.45"/>
+      <defs><marker id="fp-arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto"><path d="M0 1.2 L9 5 L0 8.8 Z" class="fig-fill-ink"/></marker></defs>
+      <path class="fig-beam" d="M92 8 H108 L124 62 H76 Z"/>
+      <rect class="fig-fill-warm" x="90" y="3" width="20" height="7" rx="2"/>
+      <g class="fig-wire" marker-end="url(#fp-arrow)"><path d="M52 78H84"/><path d="M116 78H146" stroke-dasharray="4 4"/></g>
+      <circle class="fig-cell" cx="40" cy="78" r="11"/>
+      <circle class="fig-model" cx="100" cy="78" r="13" stroke-dasharray="none"/>
+      <circle class="fig-cell--out" cx="160" cy="78" r="11" opacity="0.45"/>
     </svg>
     <h3>Perturb</h3>
     <p>Optogenetic and chemogenetic interventions that alter activity and test the models.</p>
   </li>
 </ol>
-<p class="fig-note"><span class="fig-kind">Illustrative schematic</span> Planned approach; the icons are not data.</p>
+<figcaption><span class="fig-num">Fig. 2</span><span class="fig-kind">Illustrative schematic</span> The planned approach. The icons are not data.</figcaption>
+</figure>
