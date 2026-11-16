@@ -13,57 +13,37 @@ How do cortical circuits transform visual information?
 
 .. rst-class:: intro-copy
 
-I study how the organization and connections of neurons shape the computations they perform. The research program I am developing starts with V1 and V2, the first two cortical stages of primate vision. By combining measurements across these areas with models and targeted circuit experiments, I aim to explain how V2 builds new visual representations from its inputs—and test which principles extend to other parts of cortex. My work uses the marmoset to connect neural responses, computation, and biological mechanisms.
+I study how information is transformed between areas of the visual cortex. My research focuses on V1 and V2 in the marmoset: how visual representations change between these areas, and how the underlying circuitry produces those changes. I combine measurements of neural activity with computational models to investigate the biological circuits behind these transformations.
 
 .. container:: profile-actions
 
-   `Explore the research <Research.html>`__ `Publications <Publications.html>`__ `Contact <#contact>`__
+   `Explore the research <Research.html>`__ `Publications <Publications.html>`__ `About <#about>`__ `Contact <#contact>`__
 
 .. rst-class:: award-note
 
-Recipient of a National Eye Institute K99 award for *Linking physiology, computation and circuitry in the primate visual cortex*. `Public award record <https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=K99EY037839&arg_ProgOfficeCode=124>`__.
+Supported by a National Eye Institute K99 award. `Award details <https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=K99EY037839&arg_ProgOfficeCode=124>`__.
 
 .. _research-focus:
 
-Research program
---------------------
+From neural responses to circuit mechanisms
+-----------------------------------------------
 
-Three connected questions guide this program:
+Different biological circuits can perform similar computations, making it difficult to infer the mechanism from neural responses alone. I plan to combine simultaneous measurements in V1 and V2 with computational models and interventions that distinguish competing explanations of how these areas interact.
 
-.. container:: research-questions
-
-   .. container:: research-question
-
-      **01 · Transformations between visual areas**
-
-      How does visual information change from V1 to V2?
-
-   .. container:: research-question
-
-      **02 · From responses to circuit explanations**
-
-      Which biological circuits explain those transformations?
-
-   .. container:: research-question
-
-      **03 · From one circuit to general principles**
-
-      Which principles extend to later stages of visual processing?
-
-`Read about the questions and approach → <Research.html>`__
+`Research questions and approach → <Research.html>`__
 
 Selected contributions
 --------------------------
 
-These studies provide foundations for the program: understanding cortical organization, making precise measurements in awake primates, and separating visual input from behavioral modulation.
-
 .. container:: contribution-list
 
-   .. container:: contribution
+   .. container:: contribution contribution-featured
 
       **Cortical organization and visual maps**
 
-      My collaborative work on marmoset dorsomedial cortex examined how topographic continuity can account for a twisted visual-field map. More recent work proposes a single complex V2 as an alternative account of mouse higher visual cortex. Together, these studies examine how cortical organization can be understood through the structure of visual maps.
+      Our work on marmoset dorsomedial cortex showed how continuity constraints can produce a twisted visual-field map. Our recent mouse V2 preprint proposes a single complex area as an alternative account of higher visual cortex.
+
+      Both studies address how we identify cortical areas and interpret the organization of visual maps within them.
 
       `Science Advances article (2020) <https://doi.org/10.1126/sciadv.aaz8673>`__ · `Mouse V2 preprint (2026) <https://doi.org/10.1101/2024.10.10.617533>`__
 
@@ -71,7 +51,7 @@ These studies provide foundations for the program: understanding cortical organi
 
       **Active sensing and neural variability**
 
-      Our recent preprint examines how tiny eye movements during fixation shape activity in marmoset visual cortex. The results link much of the measured variability to changing retinal input, while model-based analyses suggest that this motion can improve the spatial information carried by neural responses.
+      Our preprint links much of the neural variability during fixation to retinal input changing with small eye movements. Model-based analyses suggest that this motion can improve the spatial information carried by neural responses.
 
       `Active-sensing preprint (2026) <https://doi.org/10.64898/2026.10.12.758571>`__
 
@@ -79,14 +59,20 @@ These studies provide foundations for the program: understanding cortical organi
 
       **Visual cortex during locomotion**
 
-      We found that running modulates marmoset foveal V1 much less than mouse V1. Follow-up work examines stronger running-related modulation in the peripheral representation of primate V1. Together, these studies show why species and retinotopic location matter when interpreting behavioral influences on vision.
+      We found that running modulates marmoset foveal V1 much less than mouse V1. Our peripheral-V1 preprint reports stronger modulation away from the foveal representation, highlighting differences across the visual field as well as between species.
 
       `eLife article (2024) <https://doi.org/10.7554/eLife.87736.3>`__ · `Peripheral-V1 preprint (2024) <https://doi.org/10.1101/2024.10.10.617723>`__
 
 About
 ---------
 
-I am a Postdoctoral Scholar in Alex Huk's laboratory at UCLA, in the Departments of Psychiatry & Biobehavioral Sciences and Ophthalmology. My research experience spans cortical maps, calcium imaging, electrophysiology, psychophysics, and computational analysis. I have developed and implemented tools for studying vision in awake marmosets, providing the experimental foundation for my questions about interactions between cortical areas.
+I am a Postdoctoral Scholar in Alex Huk's laboratory at UCLA, in the Departments of Psychiatry & Biobehavioral Sciences and Ophthalmology.
+
+At Monash, Marcello Rosa, Elizabeth Zavitz, and Hsin-Hao Yu taught me electrophysiology, data analysis, and how to think about visual maps and cortical areas. I began by mapping receptive fields by hand with single-electrode recordings, then worked with multielectrode arrays. During my PhD, I spent time in Tetsuo Yamamori's laboratory at RIKEN in Japan, working with Osamu Sadakane and learning one- and two-photon calcium imaging. That imaging work remains an important foundation for the research I am pursuing now.
+
+I then joined the Nauhaus and Huk labs at the University of Texas at Austin before moving to UCLA with Alex. Having worked mostly with anesthetized animals, I learned in the US how different and difficult it is to study vision in awake animals.
+
+My current mentors are Alex Huk, Lindsey Glickfeld, and Dario Ringach. Building on my experience with electrophysiology, imaging, and visual maps, I aim to explain how circuits transform information between visual areas.
 
 Contact
 -----------

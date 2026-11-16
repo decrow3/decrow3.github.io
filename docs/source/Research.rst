@@ -5,21 +5,28 @@ Research
 
 .. rst-class:: page-intro
 
-How do biological circuits transform information between visual areas?
+Linking physiology, computation, and circuitry in the primate visual cortex.
 
-My research connects cortical physiology, computation, and circuitry. The starting point is marmoset V1 and V2, with the longer-term goal of understanding principles that extend to additional stages of visual processing.
+My goal is to understand how information is transformed between areas of the visual cortex. I focus on the first two cortical stages of vision, V1 and V2, in the marmoset. A model of this circuit should explain how V2 neurons respond to visual inputs as a function of the signals they receive from V1.
 
-Measurements, models, and interventions
----------------------------------------
+Connecting neural responses to biological mechanisms
+-------------------------------------------------------
 
-Similar neural responses can arise from different biological circuits. Measurements reveal what neurons respond to, but may not uniquely identify the mechanism. Combining those observations with models and interventions provides a way to test competing circuit explanations.
+Different biological circuits can perform similar computations, while similar circuits can perform different computations. My research seeks to reconcile this disconnect between function and circuitry. Understanding what a neuron responds to is part of the problem; explaining how those responses arise requires connecting measurements of neural activity with models of the underlying circuit.
 
-The program combines simultaneous neural measurements with computational models and experimental interventions. High-density electrophysiology and calcium imaging provide complementary observations. Optogenetic and chemogenetic approaches are planned tools for testing circuit explanations.
+Measuring and testing the circuit
+------------------------------------
+
+I plan to combine simultaneous measurements of V1 and V2 activity, using high-density electrophysiology and calcium imaging, with computational models of the circuit between them. Measuring both areas together will allow me to relate the activity of V2 neurons to the signals available from V1.
+
+Alongside these measurements, I plan to use optogenetic and chemogenetic interventions to alter neural activity and test the models. These approaches connect the description of neural responses to experiments on the circuits that produce them.
+
+The longer-term aim is to extend this approach to additional stages of visual processing, asking which aspects of the circuit explanation carry over and which need to change.
 
 Supported by National Eye Institute award K99EY037839, *Linking physiology, computation and circuitry in the primate visual cortex*. `Award details <https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=K99EY037839&arg_ProgOfficeCode=124>`__.
 
-Published foundations
----------------------
+Related work
+----------------
 
 **Cortical organization.** Our work on marmoset dorsomedial cortex combined modeling and electrophysiology to examine how continuity constraints can produce a twisted visual-field map. The results show why a change in visual-field map orientation need not mark the boundary between separate cortical areas.
 

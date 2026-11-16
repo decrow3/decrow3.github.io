@@ -50,6 +50,13 @@
   border-top: 1px solid var(--line);
 }
 
+.contribution-featured {
+  margin-bottom: 12px;
+  padding: 22px;
+  border-left: 3px solid var(--blue);
+  background: var(--soft-blue);
+}
+
 .site-footer {
   display: flex;
   flex-wrap: wrap;
