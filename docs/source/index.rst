@@ -13,7 +13,7 @@ How do cortical circuits transform visual information?
 
 .. rst-class:: intro-copy
 
-I study how information is transformed between areas of the visual cortex. My research focuses on V1 and V2 in the marmoset: how visual representations change between these areas, and how the underlying circuitry produces those changes. I combine measurements of neural activity with computational models to investigate the biological circuits behind these transformations.
+I study how information is transformed between areas of the visual cortex. My research focuses on V1 and V2 in the marmoset: how visual representations change between these areas, and how the underlying circuitry produces those changes. I combine neural recordings and computational models to investigate these mechanisms.
 
 .. container:: profile-actions
 
@@ -68,7 +68,7 @@ About
 
 I am a Postdoctoral Scholar in Alex Huk's laboratory at UCLA, in the Departments of Psychiatry & Biobehavioral Sciences and Ophthalmology.
 
-At Monash, Marcello Rosa, Elizabeth Zavitz, and Hsin-Hao Yu taught me electrophysiology, data analysis, and how to think about visual maps and cortical areas. I began by mapping receptive fields by hand with single-electrode recordings, then worked with multielectrode arrays. During my PhD, I spent time in Tetsuo Yamamori's laboratory at RIKEN in Japan, working with Osamu Sadakane and learning one- and two-photon calcium imaging. That imaging work remains an important foundation for the research I am pursuing now.
+During my PhD at Monash University, Marcello Rosa, Elizabeth Zavitz, and Hsin-Hao Yu taught me electrophysiology, data analysis, and how to think about visual maps and cortical areas. I began by mapping receptive fields by hand with single-electrode recordings, then worked with multielectrode arrays. I also spent time in Tetsuo Yamamori's laboratory at RIKEN in Japan, working with Osamu Sadakane and learning one- and two-photon calcium imaging. That imaging work remains an important foundation for the research I am pursuing now.
 
 I then joined the Nauhaus and Huk labs at the University of Texas at Austin before moving to UCLA with Alex. Having worked mostly with anesthetized animals, I learned in the US how different and difficult it is to study vision in awake animals.
 

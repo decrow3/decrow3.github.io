@@ -5,7 +5,7 @@ Publications
 
 .. rst-class:: page-intro
 
-Journal articles, preprints, talks, and posters from work on visual neuroscience, marmoset behavior, and comparative cortical function. Entries are ordered newest first within each section.
+Journal articles, preprints, talks, and posters from work on visual neuroscience, marmoset behavior, and comparative cortical function.
 
 Journal articles
 ----------------
@@ -34,7 +34,7 @@ Journal articles
 
       Yu H-H., **Rowley D.P.**, Price N.S.C., Rosa M.G.P., Zavitz E. *Science Advances* 6(44), eaaz8673 (2020).
 
-      `Article <https://doi.org/10.1126/sciadv.aaz8673>`__
+      `Article <https://doi.org/10.1126/sciadv.aaz8673>`__ · `Published model code <https://github.com/hsinhaoyu/DM_Retinotopy>`__
 
 \* Equal contribution.
 

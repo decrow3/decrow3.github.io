@@ -32,7 +32,11 @@ Related work
 
 `Science Advances article (2020) <https://doi.org/10.1126/sciadv.aaz8673>`__ · `Published model code <https://github.com/hsinhaoyu/DM_Retinotopy>`__
 
-**Comparative visual neuroscience.** Our running study found markedly different modulation in mouse and marmoset foveal V1. Follow-up work examines peripheral primate V1, emphasizing the importance of species and retinotopic location.
+**Mouse V2 organization.** Our current preprint proposes a single complex V2 as an alternative account of mouse higher visual cortex. This work examines how we identify cortical areas and interpret the organization of visual maps within them.
+
+`Current preprint (2026) <https://doi.org/10.1101/2024.10.10.617533>`__ · `Earlier eLife reviewed version (2025) <https://elifesciences.org/reviewed-preprints/105910v1>`__
+
+**Comparative visual neuroscience.** We found that running modulates marmoset foveal V1 much less than mouse V1. Our peripheral-V1 preprint reports stronger modulation away from the foveal representation, highlighting differences across the visual field as well as between species.
 
 `eLife article (2024) <https://doi.org/10.7554/eLife.87736.3>`__ · `Peripheral-V1 preprint (2024) <https://doi.org/10.1101/2024.10.10.617723>`__
 
